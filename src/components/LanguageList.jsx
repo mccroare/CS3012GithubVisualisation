@@ -46,7 +46,7 @@ const LanguageList = (props) => {
 
                       <div>
                         <div>
-                          <PieChart repoSize={x.split('')} repoNames={languages.split(',')} />
+                          <PieChart size={x.split('')} names={languages.split(',')} />
                         </div>
                         {x = ''}
                         {languages = ''}

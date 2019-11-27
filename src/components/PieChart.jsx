@@ -8,7 +8,7 @@ const PieChart = (props) => {
         <Plot data={[
             {
                 values: props.size,
-                labels: props.data,
+                labels: props.names,
                 type: 'pie'
             }
         ]}
