@@ -35,7 +35,8 @@ const headerSpecific = {
   color: "white",
   padding: "10px",
   fontFamily: "sans-serif",
-  fontSize: "45px"
+  fontSize: "45px",
+  fontWeight: "bold"
 }
 
 
@@ -135,7 +136,7 @@ axios.get('https://api.github.com/users/' + this.state.formData.username + '/sta
       <div className="App">
         <header className="App-header">
           <nav class="navbar bg-warning navbar-dar">
-              <h1><a style={headerSpecific} class="navbar-brand" href="#">Github API Analytics</a></h1>
+              <h1><a style={headerSpecific} class="navbar-brand" href="#">CS3012 Github Visualization</a></h1>
               <div>
                 <Form
                   formData={this.state.formData}
@@ -150,13 +151,9 @@ axios.get('https://api.github.com/users/' + this.state.formData.username + '/sta
           This site provides information on GitHub user accounts.
         </p>
       </div>
-      <Row className="show-grid">
-        <Col xs={12} md={14} className="text-center">
           <div class="container">
                 <ProfileDetails infoclean={this.state.infoclean}/>
           </div>
-        </Col>
-      </Row>
       <hr></hr>
       <div class="container">
               <h1 class="font-weight-bold">Own Repositories</h1>

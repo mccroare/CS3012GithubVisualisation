@@ -36,7 +36,7 @@ const titleStyle = {
 const ProfileDetails = (props) => {
     return (
       <Row className="show-grid">
-        <Col xs={12} md={14} className="text-center">
+        <Col xs={12} md={14}>
         <div style={titleStyle}>
         <h1 class="font-weight-bold">Profile Information</h1>
         <div class="card-columns">

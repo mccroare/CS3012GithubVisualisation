@@ -33,10 +33,10 @@ class BarChart extends Component {
             .selectAll('rect')
             .data(this.props.data)
             .style('fill', '1E90FF')
-            .attr('x', (d, i) => i * 50)
+            .attr('x', (d, i) => i * 70)
             .attr('y', d => this.props.size[1]- yScale(d))
             .attr('height', d => yScale(d))
-            .attr('width', 40)
+            .attr('width', 65)
             .text(this.props.data)
 
 

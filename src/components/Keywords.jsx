@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Keywords = (props) => {
+
   if (props.keywords) {
+
     return (
         <div>
           {
@@ -14,7 +16,11 @@ const Keywords = (props) => {
           }
         </div>
       )
-  } else { return null;}
+
+  }
+  else {
+    return null;
+  }
   };
 
 export default Keywords;

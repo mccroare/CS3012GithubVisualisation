@@ -24,20 +24,20 @@ const SortedList = (props) => {
 
                 </Panel.Heading>
                     <Panel.Body style={{ backgroundColor: "00FFFF" }}>
-                  <div>
-                    <b>Description: </b>{repitem.description}
-                  </div>
-                  <div>
-                    <b>Language: </b>{repitem.language}
-                  </div>
-                  <div>
-                    <b>Watchers: </b>{repitem.watchers_count}
-                  </div>
-                  <div>
-                    <b> Forks: </b>{repitem.forks_count}
-                  </div>
+                      <div>
+                        <b>Description: </b>{repitem.description}
+                      </div>
+                      <div>
+                        <b>Language: </b>{repitem.language}
+                      </div>
+                      <div>
+                        <b>Watchers: </b>{repitem.watchers_count}
+                      </div>
+                      <div>
+                        <b> Forks: </b>{repitem.forks_count}
+                      </div>
 
-                </Panel.Body>
+                  </Panel.Body>
                 <hr></hr>
               </Panel>
           )}
