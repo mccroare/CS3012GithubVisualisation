@@ -1,6 +1,8 @@
 # CS3012 Github Visualisation
 
 See SWENG repository's [github_analysis branch](https://github.com/mccroare/SWENG/tree/github_analysis/src) for commit history.
+
+![alt text](https://github.com/mccroare/CS3012GithubVisualisation/blob/master/2019-11-29%20(3).png?raw=true "Title")
 ```
 ```
 
